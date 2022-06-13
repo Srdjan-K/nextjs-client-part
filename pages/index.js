@@ -29,7 +29,7 @@ function Home({resources}) {
 
 export async function getServerSideProps(){
 
-  const responseData = await fetch("http://localhost:3000/api/resources");    // changed !!!
+  const responseData = await fetch("https://nextjs-client-part-srdjan-k.vercel.app/api/resources");    // changed !!!
   const data = await responseData.json();
 
   return {
