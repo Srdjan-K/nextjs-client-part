@@ -21,7 +21,9 @@ function Home({resources}) {
       <Footer></Footer>
 
     </Layout>
-  )
+
+)
+
 }
 
 
